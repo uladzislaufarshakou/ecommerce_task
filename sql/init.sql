@@ -22,7 +22,6 @@ CREATE TABLE products (
     price NUMERIC(10, 2) NOT NULL CHECK (price > 0)
 );
 
--- Insert 50 mock products (p001 to p050)
 INSERT INTO products (product_id, product_name, category, price)
 SELECT
     'p' || lpad(i::text, 3, '0'),

@@ -55,6 +55,7 @@
 - Setup imports correctly, if you don't know how to use __init__.py, watch the YouTube guide before you start working on this project.
 - Use OOP code style to write understandable code.
 - Use SOLID patterns to guarantee easy support in future.
+- You can also use separate packages "interfaces" for each component, it won't be a mistake.
 - Use this command if you are planning to make your own repo:
 ```bash
 git clone <repo link> --depth=1

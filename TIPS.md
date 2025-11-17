@@ -58,5 +58,5 @@
 - Use this command if you are planning to make your own repo:
 ```bash
 git clone <repo link> --depth=1
-# It ensures you won't copy .git folder, won't face any issues with it.
+# It ensures you won't clone .git folder, won't face any issues with it.
 ```
